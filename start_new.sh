@@ -12,5 +12,13 @@ mkdir $project
 cd ~/Documents/GitHub/$project
 touch readme.md
 
+echo "Commit bescheibung einfügen!"
+read commit_text
+
+#Git Init
+git init
+git add .
+git commit -m $commit_text
+
 #Open Visual Studio Code
 code ~/Documents/GitHub/$project
