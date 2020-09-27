@@ -5,11 +5,11 @@ echo "Wie soll das neue Project heißen?"
 read project
 
 #Create Projektfolder
-cd ~/Documents/GitHub
+cd ~/dev/
 mkdir $project
 
 #Create Readme file
-cd ~/Documents/GitHub/$project
+cd ~/dev/$project
 touch readme.md
 
 echo "Commit bescheibung einfügen!"
@@ -21,4 +21,4 @@ git add .
 git commit -m $commit_text
 
 #Open Visual Studio Code
-code ~/Documents/GitHub/$project
+code ~/dev/$project
