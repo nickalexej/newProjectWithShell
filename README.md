@@ -10,3 +10,4 @@ Git init / git add .
 Erster Commit.
 
 VS Code in Projektpfad öffnen.
+____________________________________
